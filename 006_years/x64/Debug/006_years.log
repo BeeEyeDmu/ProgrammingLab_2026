@@ -1,0 +1,3 @@
+﻿  006_years.cpp
+C:\Users\konyang\source\repos\C_2026_Lab\006_years\006_years.cpp(6,9): warning C4101: 'year' :참조되지 않은 지역 변수입니다.
+  006_years.vcxproj -> C:\Users\konyang\source\repos\C_2026_Lab\x64\Debug\006_years.exe
