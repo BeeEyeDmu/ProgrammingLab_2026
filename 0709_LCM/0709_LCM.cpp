@@ -7,6 +7,19 @@
 
 int main()
 {
+	int x, y;
+
+	printf("두 수 입력 : ");
+	scanf_s("%d %d", &x, &y);
+
+	int max = (x > y) ? x : y;	// 조건연산자
+
+	for (int i = max; ; i++) {
+		if (i % x == 0 && i % y == 0) {
+			printf("LCM = %d\n", i);
+			break;
+		}
+	}
 
 	return 0;
 }
